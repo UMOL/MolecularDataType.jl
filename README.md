@@ -1,5 +1,6 @@
-# UMOL-MolecularDataType
-``MolecularDataType`` is a Julia package for
+# uMOL-MolecularDataType
+``MolecularDataType`` (``uMOL`` subproject) 
+is a Julia package for
 memory efficient storage of molecular data.
 It also provides tools for retrieving 
 information stored ``MolecularDataType`` objects.
