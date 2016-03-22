@@ -1,0 +1,8 @@
+include(joinpath("coordinate", "runtests.jl"))
+include(joinpath("hierarchy", "runtests.jl"))
+include(joinpath("identifier", "runtests.jl"))
+include(joinpath("catalog", "runtests.jl"))
+include(joinpath("assort", "runtests.jl"))
+include(joinpath("move", "runtests.jl"))
+include(joinpath("synthesize", "runtests.jl"))
+include(joinpath("extract","runtests.jl"))

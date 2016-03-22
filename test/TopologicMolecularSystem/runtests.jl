@@ -1,0 +1,5 @@
+include("test_comparison.jl")
+include("test_obtain.jl")
+include("test_member_count_tree.jl")
+include("test_obtain_identifier_using_tuple_index.jl")
+include("test_properties.jl")

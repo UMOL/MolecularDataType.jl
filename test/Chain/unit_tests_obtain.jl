@@ -1,0 +1,7 @@
+include("unit_tests_obtain_basics.jl")
+include("unit_tests_obtain_segments.jl")
+include("unit_tests_obtain_segment_count.jl")
+include("unit_tests_obtain_residue_count.jl")
+include("unit_tests_obtain_atom_count.jl")
+include("unit_tests_obtain_coordinate.jl")
+include("unit_tests_obtain_topology.jl")

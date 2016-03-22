@@ -1,0 +1,1 @@
+include("test_get_coordinate_info.jl")

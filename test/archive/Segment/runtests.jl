@@ -1,0 +1,5 @@
+include("test_comparison_Segment.jl")
+include("test_find_segments.jl")
+include("test_constructor_1.jl")
+include("test_convert_to_segment_dict.jl")
+include("test_obtain_Segment.jl")

@@ -1,0 +1,6 @@
+include("test_comparison_Residue.jl")
+include("test_find_residues.jl")
+include("test_constructor_1_Residue.jl")
+include("test_obtain_Residue.jl")
+include("test_convert_to_residue_dict.jl")
+include("test_convert_to_residue_array.jl")

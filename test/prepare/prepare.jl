@@ -1,0 +1,12 @@
+include("make_topologic_molecular_container.jl")
+include("make_topologic_atom.jl")
+include("make_topologic_residue.jl")
+include("make_topologic_segment.jl")
+include("make_topologic_chain.jl")
+include("make_topologic_molecular_system.jl")
+
+include("make_atom.jl")
+include("make_residue.jl")
+include("make_segment.jl")
+include("make_chain.jl")
+include("make_molecular_system.jl")

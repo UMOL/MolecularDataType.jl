@@ -1,0 +1,5 @@
+test_higher_full_molecular_container(Atom, Residue)
+test_higher_full_molecular_container(Residue, Segment)
+test_higher_full_molecular_container(Segment, Chain)
+test_higher_full_molecular_container(Chain, MolecularSystem)
+test_higher_full_molecular_container(MolecularSystem, nothing)
