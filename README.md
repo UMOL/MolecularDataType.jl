@@ -38,7 +38,7 @@ store information in a array of ``Atom`` objects
 and then feed them to the constructor for ``MolecularSystem`` data type.
 
 ### AUTHOR
-YUHANG(STEVEN) WANG
+Yuhang(Steven) Wang
 
 ### PROJECT INITIATION DATE
 02-21-2016
