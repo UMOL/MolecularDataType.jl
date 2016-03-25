@@ -9,6 +9,9 @@ set of data types that can be used for
 developing I/O packages that read/write
 molecular data.
 
+## Dependencies
+None
+
 ## Design
 ![design](doc/fig/design/type_graph_MolecularDataType.png)
 
