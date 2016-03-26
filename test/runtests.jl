@@ -29,8 +29,6 @@ include(joinpath("prepare", "prepare.jl"))
 include(joinpath("params.jl"))
 
 ## test toolkit
-include(joinpath("..","..","JuliaTestKit","src","JuliaTestKit.jl"))
-using JuliaTestKit
 
 #-------------------------------
 
