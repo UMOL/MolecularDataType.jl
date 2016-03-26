@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/UMOL/MolecularDataType.jl.svg?branch=master)](https://travis-ci.org/UMOL/MolecularDataType.jl)
+
 # uMOL-MolecularDataType
 ``MolecularDataType`` (``uMOL`` subproject) 
 is a Julia package for
