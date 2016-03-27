@@ -14,10 +14,14 @@ lengths:Array{AbstractFloat,1}
 
 angles:Array{AbstractFloat, 1}
     unit cell angles 
+
+chain_count:Integer
+    number of chains in a unit cell
 """
 function CrystalSymmetry(;lattice::AbstractString="", 
     symmetries::Array=[],
     lengths::Array=[],
-    angles::Array=[])
-    return CrystalSymmetry(lattice, symmetries, lengths, angles)
+    angles::Array=[],
+    chain_count::Integer=1)
+    return CrystalSymmetry(lattice, symmetries, lengths, angles, chain_count)
 end

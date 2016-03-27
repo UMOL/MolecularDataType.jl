@@ -13,6 +13,8 @@ of a crystal as listed below:
 +---------------------------------+-------------------------------------+--------------------------------------+
 | angles                          | Array{AbstractFloat,1}              | unit cell angles                     |
 +---------------------------------+-------------------------------------+--------------------------------------+
+| chain_count                     | Integer                             | number of chains in a unit cell      |
++---------------------------------+-------------------------------------+--------------------------------------+
 
 Note: the symmetries are listed as an array of three ``Tuple`` objects. 
 For example, [(4,1),(2,0),(2,0)] means 4-fold symmetry around Z with offset
@@ -24,6 +26,7 @@ immutable CrystalSymmetry
     symmetries::Array{Tuple{Integer, Integer}, 1}
     lengths::Array{AbstractFloat,1}
     angles::Array{AbstractFloat,1}
+    chain_count::Integer
 end
 
 include("constructor_0.jl")

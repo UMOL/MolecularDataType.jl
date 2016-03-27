@@ -100,5 +100,5 @@ function Atom(;
         chain_name,
         system_name,
         atom_topology,
-        coordinate)
+        Array[coordinate])
 end

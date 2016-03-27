@@ -15,6 +15,10 @@ macro debug(expression)
     # return nothing
 end
 
+macro debug_info(expression)
+    return :($expression)
+end
+
 export MemberCount, CrystalSymmetry
 export AbstractMolecularContainer
 export AbstractMolecularContainerIterator
@@ -24,8 +28,11 @@ export FullMolecularContainerIterator
 export TopologicMolecularContainer
 export TopologicAtom, TopologicResidue, TopologicSegment, TopologicChain, TopologicMolecularSystem
 export Atom, Residue, Segment, Chain, MolecularSystem
-export obtain, catalog, assort, properties, clone, fuse, mutate!, move!
-
+export obtain, catalog, assort, properties, one_clone, clone, fuse
+export mutate!, move!, mutate_coordinate!, mutate_all_coordinates!
+export make_atom, make_residue, make_segment, make_chain, make_molecular_system
+export make_topologic_atom, make_topologic_residue, make_topologic_segment, make_topologic_chain, make_topologic_molecular_system
+export make_topologic_molecular_container
 
 # auxiliary types
 include(joinpath("MemberCount", "MemberCount.jl"))

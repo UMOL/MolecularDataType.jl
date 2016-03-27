@@ -16,5 +16,7 @@ args:
 function mutate!(obj::AbstractMolecularContainer, field::Symbol, args...)
     if field == :coordinate
         mutate_coordinate!(obj, args...)
+    elseif field == :all_coordinates
+        mutate_all_coordinates!(obj, args...)
     end 
 end

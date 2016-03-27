@@ -16,7 +16,7 @@ function obtain(obj::Atom, field::Symbol, args...)
         return getfield(obj, field)
         
     elseif field == :coordinate
-        return Array{AbstractFloat}[obj._coordinate]
+        return obj._coordinate
 
     else
         return obtain(obj.topology, field, args...)

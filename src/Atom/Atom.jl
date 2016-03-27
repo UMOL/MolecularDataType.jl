@@ -51,7 +51,7 @@ immutable Atom <: FullMolecularContainer
     chain_name::AbstractString
     system_name::AbstractString
     topology::TopologicAtom
-    _coordinate::Array{AbstractFloat,1} # (n,3) matrix: each row is a trajectory frame; each column is one Cartesian dimension 
+    _coordinate::Array{Array{AbstractFloat,1}} 
 end
 
 # constructor with keyword arguments

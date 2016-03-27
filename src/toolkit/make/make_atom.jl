@@ -1,7 +1,6 @@
 """
 Make an ``Atom`` object.
 
-
 Arguments
 ------------
 index:Integer
@@ -90,5 +89,5 @@ function make_atom(;
         chain_name,
         system_name,
         atom_topology,
-        coordinate)
+        Array[coordinate])
 end
