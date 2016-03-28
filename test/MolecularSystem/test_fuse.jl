@@ -23,7 +23,7 @@ function test_fuse(systems::Array{MolecularSystem,1}, new_name::AbstractString, 
         print_with_color(:blue, "$(msg)\n\n")
     end
 
-    answer = fuse(systems; name=new_name)
+    answer = fuse(MolecularSystem, systems; name=new_name)
 
     @test answer == solution
 

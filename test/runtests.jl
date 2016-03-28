@@ -22,8 +22,6 @@ import MolecularDataType.obtain_member
 import MolecularDataType.obtain_identifier
 import MolecularDataType.features
 
-## test preparation
-include(joinpath("prepare", "prepare.jl"))
 
 ## test parameters
 include(joinpath("params.jl"))
@@ -48,14 +46,14 @@ include(joinpath("params.jl"))
 # include(joinpath("TopologicResidue", "runtests.jl"))
 # include(joinpath("TopologicSegment", "runtests.jl"))
 # include(joinpath("TopologicChain", "runtests.jl"))
-include(joinpath("TopologicMolecularSystem", "runtests.jl"))
+# include(joinpath("TopologicMolecularSystem", "runtests.jl"))
 
 ## FullMolecularContainer
 # include(joinpath("Atom", "runtests.jl"))
 # include(joinpath("Residue", "runtests.jl"))
 # include(joinpath("Segment", "runtests.jl"))
 # include(joinpath("Chain", "runtests.jl"))
-# include(joinpath("MolecularSystem", "runtests.jl"))
+include(joinpath("MolecularSystem", "runtests.jl"))
 
 # other types
 # include(joinpath("FullMolecularContainerIterator", "runtests.jl"))

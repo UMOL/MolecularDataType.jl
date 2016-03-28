@@ -4,6 +4,9 @@ The order of the atoms will be preserved.
 
 Arguments
 -------------
+:Type{MolecularSystem}
+    must be type ``MolecularSystem``
+
 systems:Array{MolecularSystem,1}
     input molecular systems 
 
@@ -13,7 +16,7 @@ name=""::AbstractString
 index=0:Integer
     (optional) index for the new molecular system object
 """
-function fuse(systems::Array{MolecularSystem,1}; name::AbstractString="", index::Integer=0)
+function fuse(::Type{MolecularSystem}, systems::Array; name::AbstractString="", index::Integer=0)
     if length(systems) == 0
         return MolecularSystem()
     end
