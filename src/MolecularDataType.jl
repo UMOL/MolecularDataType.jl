@@ -1,3 +1,4 @@
+__precompile__(true)
 """
 Module **MolecularDataType** provides data types
 that can be used to store molecular information.
